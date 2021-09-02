@@ -18,4 +18,43 @@ header{
     height: 50px;
     
 }
+main{
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    line-height: 1.4rem;
+}
+.main-introduction-question{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-introduction-question p{
+    margin-top: 30px;
+}
+.robot{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../scr/robot.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-introductio-chart{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.main-introductio-chart table{
+    width: 100%;
 
+}
+.main-introductio-chart button{
+    width: 50%  ;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);  
+}
